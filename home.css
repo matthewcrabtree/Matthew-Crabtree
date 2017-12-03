@@ -1,0 +1,155 @@
+
+.header{
+	background-color: #181818;
+	height: 175px;
+}
+
+.navbar{
+margin-bottom:0px !important;
+}
+
+.navbar-inverse{
+background-color: #181818;
+color: grey;
+}
+.navbar-defalt{
+    background-color: #609048;
+    border-color: #609048;
+    color: white;
+}
+
+
+
+.navbar-defalt .nav-pills > li > a{
+color: white;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.navbar-defalt .nav-pills > .active > a,
+.navbar-defalt .nav-pills > .active > a:hover,
+.navbar-defalt .nav-pills > .active > a:focus{
+color: white;
+background-color: #181818;
+}
+.nav-pills > li {
+    display: inline-block;
+    float:none;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 150%;
+    color: white;
+}
+
+
+
+
+
+#homeTab .tab-content{
+color: white;
+background-color: #609048;
+}
+
+.nav-tabs > li > a{
+color: #181818
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+background-color: #181818;
+border-color: none;
+color: white;
+}
+
+
+
+
+
+
+.nav-tabs{
+	font-size: 150%;
+	border-color: #2F4F4F;
+
+}
+
+
+
+.tab-pane{
+	font-size: 150%;
+}
+
+
+
+
+.myDiv{
+position:relative;
+z-index:1;
+}
+.myDiv:before{
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: url("https://cdn.pixabay.com/photo/2016/10/18/22/58/car-1751753_960_720.jpg");
+opacity: .4;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+
+.backgroundGreen{
+	background: #609048;
+}
+.textGreen{
+color: #609048;
+}
+.textBlack{
+color: #181818;
+}
+
+
+
+.jumbotron{
+	 background-color: #609048;
+     border-color: #080808;
+     color: white;
+     opacity: none;
+     width: 100%;
+}
+
+#bottomJumbotron{
+    margin-bottom: 0px;
+
+}
+
+
+
+.slant{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+
+}
+.slant:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: top right;
+    transform: skewY(-1deg);
+}
