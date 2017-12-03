@@ -8,11 +8,8 @@
 margin-bottom:0px !important;
 }
 
-.navbar-inverse{
-background-color: #181818;
-color: grey;
-}
-.navbar-defalt{
+
+.navbar-default{
     background-color: #609048;
     border-color: #609048;
     color: white;
@@ -20,15 +17,15 @@ color: grey;
 
 
 
-.navbar-defalt .nav-pills > li > a{
+.navbar-default .nav-pills > li > a{
 color: white;
 -webkit-border-radius: 0;
 -moz-border-radius: 0;
 border-radius: 0;
 }
-.navbar-defalt .nav-pills > .active > a,
-.navbar-defalt .nav-pills > .active > a:hover,
-.navbar-defalt .nav-pills > .active > a:focus{
+.navbar-default .nav-pills > .active > a,
+.navbar-default .nav-pills > .active > a:hover,
+.navbar-default .nav-pills > .active > a:focus{
 color: white;
 background-color: #181818;
 }
