@@ -154,3 +154,60 @@ color: #181818;
     transform-origin: top right;
     transform: skewY(-1deg);
 }
+
+
+
+
+
+/* -----------------  New -----------------------------------------------------   */
+
+
+
+
+#title{
+    
+    width: 100%;
+    background-color: #609048;
+    
+    
+}
+
+#part1{
+    background-color: #609048;
+    color:white;
+    height: 600px;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+}
+p{
+    font-size: 130%;
+
+}
+
+
+
+#serviceList{
+    font-size: 120%;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+    background-color: #609048;
+    color: #181818
+
+}
+
+form{
+    
+    font-size: 140%;
+}
+#descField{
+    height: 180px;
+}
+
+
+
+
+
