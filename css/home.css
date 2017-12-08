@@ -96,8 +96,9 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-background: url("https://cdn.pixabay.com/photo/2016/10/18/22/58/car-1751753_960_720.jpg");
-background: url("Images/background.jpg");
+
+background: url("../Images/background.jpg");
+
 opacity: .4;
 background-repeat: no-repeat;
 background-size: cover;
@@ -111,11 +112,17 @@ background-size: cover;
 .backgroundGreen{
 	background: #609048;
 }
+.backgroundBlack{
+    background: #181818;
+}
 .textGreen{
 color: #609048;
 }
 .textBlack{
 color: #181818;
+}
+.textWhite{
+color: white;
 }
 
 
