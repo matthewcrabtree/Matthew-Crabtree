@@ -49,7 +49,9 @@ background-color: #181818;
 #homeTab .tab-content{
 color: white;
 background-color: #609048;
+
 }
+
 
 .nav-tabs > li > a{
 color: #181818
@@ -65,7 +67,12 @@ color: white;
 }
 
 
-
+.home-info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 
